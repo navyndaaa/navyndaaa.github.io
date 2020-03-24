@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-julia",
+  "name": "navynda-id-gatsby",
   "private": true,
-  "description": "A minimal blog template built with Gatsby",
-  "version": "0.1.0",
-  "author": "Niklas Metje <hi@niklasmtj.de>",
+  "description": "Just another Gatsby ssite",
+  "version": "1.0",
+  "author": "Navynda Aldadera <navyndaaa@gmail.com>",
   "dependencies": {
     "@emotion/core": "^10.0.10",
     "@emotion/styled": "^10.0.11",
@@ -23,7 +23,6 @@
     "gatsby-source-filesystem": "^2.0.38",
     "gatsby-transformer-remark": "^2.3.12",
     "gatsby-transformer-sharp": "^2.1.21",
-    "gh-pages": "^2.2.0",
     "prism-themes": "^1.1.0",
     "prismjs": "^1.17.1",
     "prop-types": "^15.7.2",
@@ -33,27 +32,13 @@
     "typeface-nunito": "0.0.72"
   },
   "devDependencies": {
+    "gh-pages": "^2.2.0",
     "prettier": "^1.17.1"
   },
   "keywords": [
     "gatsby"
   ],
   "license": "MIT",
-  "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "format": "prettier --write src/**/*.{js,jsx}",
-    "start": "npm run develop",
-    "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
-  },
   "scripts": {
     "deploy": "gatsby build && gh-pages -d public -b master"
   }
